@@ -17,6 +17,8 @@
 				<prop key="/index.html">urlFilenameViewController</prop>
 				<prop key="/login.html">urlFilenameViewController</prop>
 				<prop key="/register.html">urlFilenameViewController</prop>
+				
+				<prop key="/test.html">urlFilenameViewController</prop>				
 			</props>
 		</property>
 	</bean>
