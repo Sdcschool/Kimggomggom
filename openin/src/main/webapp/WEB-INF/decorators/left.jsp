@@ -27,8 +27,8 @@
         <div id="basicInfo" class="collapse" aria-labelledby="basicInfo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">basicInfo Components:</h6>
-            <a class="collapse-item" href="test.html">basicInfo1</a>
-            <a class="collapse-item" href="basicInfo/basicInfo2.html">basicInfo2</a>
+            <a class="collapse-item" href="basicInfo01.html">basicInfo01</a>
+            <a class="collapse-item" href="basicInfo02.html">basicInfo02</a>
           </div>
         </div>
       </li>
@@ -42,8 +42,8 @@
         <div id="logisticsInfo" class="collapse" aria-labelledby="logisticsInfo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">logisticsInfo Components:</h6>
-            <a class="collapse-item" href="/logisticsInfo/logisticsInfo1.html">logisticsInfo01</a>
-            <a class="collapse-item" href="/logisticsInfo/logisticsInfo2.html">logisticsInfo02</a>
+            <a class="collapse-item" href="logisticsInfo1.html">logisticsInfo01</a>
+            <a class="collapse-item" href="logisticsInfo2.html">logisticsInfo02</a>
           </div>
         </div>
       </li>
@@ -65,8 +65,8 @@
         <div id="plan" class="collapse" aria-labelledby="plan" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">plan Components:</h6>
-            <a class="collapse-item" href="/plan/plan01.html">plan01</a>
-            <a class="collapse-item" href="/plan/plan02.html">plan02</a>
+            <a class="collapse-item" href="plan01.html">plan01</a>
+            <a class="collapse-item" href="plan02.html">plan02</a>
           </div>
         </div>
       </li>
@@ -80,8 +80,8 @@
         <div id="work" class="collapse" aria-labelledby="work" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">work Components:</h6>
-            <a class="collapse-item" href="/work/work01.html">work01</a>
-            <a class="collapse-item" href="/work/work02.html">work02</a>
+            <a class="collapse-item" href="work01.html">work01</a>
+            <a class="collapse-item" href="work02.html">work02</a>
           </div>
         </div>
       </li>
@@ -95,8 +95,8 @@
         <div id="material" class="collapse" aria-labelledby="material" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">material Components:</h6>
-            <a class="collapse-item" href="/material/material01.html">material01</a>
-            <a class="collapse-item" href="/material/material02.html">material02</a>
+            <a class="collapse-item" href="material01.html">material01</a>
+            <a class="collapse-item" href="material02.html">material02</a>
           </div>
         </div>
       </li>

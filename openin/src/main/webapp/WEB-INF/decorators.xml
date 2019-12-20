@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <decorators defaultdir="/WEB-INF/decorators">
-	<decorator name="appServlet" page="content.jsp">
+	<decorator name="main" page="content.jsp">
 		<pattern>/*</pattern>
 	</decorator>
 	

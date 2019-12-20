@@ -1,4 +1,6 @@
 <%@ page language="java" contentType="text/html" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://www.opensymphony.com/sitemesh/decorator" prefix="decorator" %>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,19 +14,18 @@
 
   <!-- Custom styles for this template-->
   <link href="${pageContext.request.contextPath}/Bootstrap_Admin2/css/sb-admin-2.min.css" rel="stylesheet">
-
+<decorator:head />
 </head>
 <body id="page-top">
   <div id="wrapper">
     <jsp:include page="left.jsp" />
-    
     <div id="content-wrapper" class="d-flex flex-column">
       <div id="content">
         <jsp:include page="top.jsp" />       
         <div class="container-fluid">
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
           </div>
-		    <decorator:body ></decorator:body>	
+		    <decorator:body />
         </div>        
       </div>
       <footer class="sticky-footer bg-white">
@@ -59,8 +60,7 @@
       </div>
     </div>
   </div>
-  
-  
+
   <!-- Bootstrap core JavaScript-->
   <script src="${pageContext.request.contextPath}/Bootstrap_Admin2/vendor/jquery/jquery.min.js"></script>
   <script src="${pageContext.request.contextPath}/Bootstrap_Admin2/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
