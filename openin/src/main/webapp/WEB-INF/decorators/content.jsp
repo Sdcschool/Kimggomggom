@@ -15,7 +15,7 @@
 	<link href="${pageContext.request.contextPath}/Bootstrap_Admin2/css/sb-admin-2.min.css" rel="stylesheet">
 	<!-- AX5UI-GRID -->
 	<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/ax5ui/ax5ui-grid/master/dist/ax5grid.css">
-	 
+	<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/ax5ui/ax5ui-select/master/dist/ax5select.css" /> 
 	 
 	  
 	<!-- Bootstrap core JavaScript-->
@@ -33,7 +33,8 @@
 	<!-- AX5UI-GRID -->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
 	<script type="text/javascript" src="https://cdn.rawgit.com/ax5ui/ax5core/master/dist/ax5core.min.js"></script>
-	<script type="text/javascript" src="https://cdn.rawgit.com/ax5ui/ax5ui-grid/master/dist/ax5grid.min.js"></script> 
+	<script type="text/javascript" src="https://cdn.rawgit.com/ax5ui/ax5ui-grid/master/dist/ax5grid.min.js"></script>
+	<script type="text/javascript" src="https://cdn.rawgit.com/ax5ui/ax5ui-select/master/dist/ax5select.min.js"></script> 
 </head>
 <decorator:head /> 
 <body id="page-top">
