@@ -25,21 +25,23 @@
       <!-- 상세 폼 -->
       <form style="margin-top:20px;">
 		  <div class="form-group">
-		    <label for="exampleFormControlInput1">사업장명</label>
-		    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="사업장명을 입력하세요..">
+		    <label for="exampleFormControlInput1">부서명</label>
+		    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="부서명을 입력하세요..">
 		  </div>
 		  
-		  <div class="form-group">
+<!-- 		  <div class="form-group">
 		    <label for="exampleFormControlInput2">사업/주민번호</label>
 		    <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="사업자 등록번호를 입력하세요..">
-		  </div>
+		  </div> -->
 		  
 		  <div class="form-group">
-		    <label for="exampleFormControlSelect1">사업장 구분</label>
+		    <label for="exampleFormControlSelect1">부서 구분</label>
 		    <select class="form-control" id="exampleFormControlSelect1">
-		      <option>사업장1</option>
-		      <option>사업장2</option>
-		      <option>사업장3</option>
+		      <option>구매부</option>
+		      <option>영업부</option>
+		      <option>회계부</option>
+		      <option>전산부</option>
+		      <option>생산부</option>
 		    </select>
 		  </div>
 		  
@@ -48,10 +50,10 @@
 		    <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="전화번호를 입력하세요..">
 		  </div>
   
-		  <div class="form-group">
-		    <label for="exampleFormControlTextarea1">사업장 주소</label>
-		    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="사업장 주소를 입력하세요.."></textarea>
-		  </div>
+<!-- 		  <div class="form-group">
+		    <label for="exampleFormControlTextarea1">거래처 주소</label>
+		    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="거래처 주소를 입력하세요.."></textarea>
+		  </div> -->
 		</form>
 		
 		<button type="button" class="btn btn-primary" data-grid-control="row-add" id="registerBtn">등록</button>
@@ -76,12 +78,12 @@
                 	 } },
                  // onStateChanged: function(a){ console.log(a); },
                  columns: [
-                    { key: "col01", label: "사업장명", width: 100, align: "center", editor: {type:"text"}, edableFilter: true},
-                    { key: "col02", label: "사업/주민번호", width: 190, align: "center", editor: {type:"text"}},
-                    { key: "col03", label: "사업장구분", width: 100, align: "center", editor: {type:"text"}},
-                    { key: "col04", label: "대표자명", width: 100, align: "center", editor: {type:"text"}},
-                    { key: "col05", label: "전화번호", width: 100, align: "center", editor: {type:"text"}},
-                    { key: "col06", label: "사업장 주소", width: 300, align: "center", editor: {type:"text"}}
+                    { key: "col01", label: "부서명", width: 100, align: "center", editor: {type:"text"}, edableFilter: true},
+                    /* { key: "col02", label: "사업/주민번호", width: 190, align: "center", editor: {type:"text"}}, */
+                    { key: "col02", label: "부서구분", width: 100, align: "center", editor: {type:"text"}},
+                    /* { key: "col04", label: "대표자명", width: 100, align: "center", editor: {type:"text"}}, */
+                    { key: "col03", label: "전화번호", width: 100, align: "center", editor: {type:"text"}}
+                    /* { key: "col04", label: "거래처 주소", width: 300, align: "center", editor: {type:"text"}} */
                  ]
               });
               // 그리드 설정 및 칼럼 생성..end
@@ -90,12 +92,12 @@
               var list = [];
               for(var startCount=0, lastCount=6; startCount<lastCount; startCount++){
                  list.push({
-                    col01 : "(주)회사명" + "000" + startCount,
-                    col02 : "11-12478-210" + "000" + startCount,
-                    col03 : "사업장1",
-                    col04 : "대표자" + startCount,
-                    col05 : "054-123-4567",
-                    col06 : "대한민국 경상북도 포항시 남구 대이로 123-" + startCount
+                    col01 : "부서명" + "000" + startCount,
+                    /* col02 : "11-12478-210" + "000" + startCount, */
+                    col02 : "전산",
+                    /* col04 : "대표자" + startCount, */
+                    col03 : "054-123-4567",
+                    /* col06 : "대한민국 경상북도 포항시 남구 대이로 123-" + startCount */
                  });
               }
               firstGrid.setData(list);

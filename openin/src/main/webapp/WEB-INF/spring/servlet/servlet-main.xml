@@ -20,6 +20,8 @@
 				
 				<prop key="/basicInfo01.html">urlFilenameViewController</prop>				
 				<prop key="/basicInfo02.html">urlFilenameViewController</prop>				
+				<prop key="/basicInfo03.html">urlFilenameViewController</prop>				
+				<prop key="/basicInfo04.html">urlFilenameViewController</prop>				
 			</props>
 		</property>
 	</bean>
