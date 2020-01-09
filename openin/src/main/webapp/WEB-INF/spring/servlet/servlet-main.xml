@@ -21,7 +21,16 @@
 				<prop key="/basicInfo01.html">urlFilenameViewController</prop>				
 				<prop key="/basicInfo02.html">urlFilenameViewController</prop>				
 				<prop key="/basicInfo03.html">urlFilenameViewController</prop>				
-				<prop key="/basicInfo04.html">urlFilenameViewController</prop>				
+				<prop key="/basicInfo04.html">urlFilenameViewController</prop>
+								
+				<prop key="/logisticsInfo1.html">urlFilenameViewController</prop>				
+				<prop key="/logisticsInfo2.html">urlFilenameViewController</prop>				
+				<prop key="/logisticsInfo3.html">urlFilenameViewController</prop>				
+				<prop key="/logisticsInfo1_popup.html">urlFilenameViewController</prop>
+				
+				<prop key="/plan01.html">urlFilenameViewController</prop>							
+				<prop key="/plan02.html">urlFilenameViewController</prop>							
+				<prop key="/plan03.html">urlFilenameViewController</prop>							
 			</props>
 		</property>
 	</bean>

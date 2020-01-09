@@ -11,5 +11,6 @@
 		<pattern>*forgot-password*</pattern>
 		<pattern>*register*</pattern>
 		<pattern>*error*</pattern>
+		<pattern>*logisticsInfo1_popup*</pattern>
 	</excludes>
 </decorators> 
